@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http.-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      
+   </head>
+<body>
+<!-- <p id="lenin"></p> -->
+<!-- <script> -->
+ <!-- var number=[1,2,3,4,5,6,7,] -->
+ <!-- var text=""; -->
+  <!-- for(let one=0;one<number.length;one++){ -->
+    <!-- text+=number[one] +"<br>"; -->
+  <!-- } -->
+  <!-- document.getElementById("lenin").innerHTML = text; -->
+<!-- </script> -->
+
+<!-- <input id="lenincs"> -->
+<input type="number" id="leninc">
+<button id="btn" onclick="call()">save</button>
+<p id ="rt"></p>
+<script>
+
+
+function call(){
+var output= document.getElementById("leninc").value;
+var text="";
+for(var num =0;num<output.length;num++){
+  text += output[num] +"<br>" ;// text = text + output[num] +"<br>" 
+}
+document.getElementById("rt").value=text;
+}
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
